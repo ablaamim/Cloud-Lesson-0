@@ -1,18 +1,26 @@
-# Cloud-Lesson-0
+# Cloud-Lesson-0 :
 
+<div align=center>
+<img src=https://scontent.fcmn1-2.fna.fbcdn.net/v/t39.30808-6/391747492_694488122736244_3803108091814536965_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFvMsHFFCwgAS-l-A4hPM4iGgzD_AhZQdoaDMP8CFlB2gbu1p-mxQDgeWHdUY45fDXzU7j0snYfjfNVW-uogqFi&_nc_ohc=LlIttV26lycQ7kNvgGI9ncf&_nc_pt=1&_nc_ht=scontent.fcmn1-2.fna&_nc_gid=ANG5coW0pHNftq1Z3Y4OwWQ&oh=00_AYAgL74yDZES_eAuUjQ7NNY-uRVWfRLayAMkkybOJ4oYJg&oe=66E4F842 alt=ablaamim's 42Project/>
+</div>
 
-# Discover the world of virtualization :
+## Learning Goals
+
+- Understand the concept of virtualization.
+- Learn how virtual machines operate.
+- Understand the benefits and limitations of virtual machines.
+
+---
+
+### Discover the world of virtualization :
+
+---
 
 <div align=center>
 <img src=https://github.com/ablaamim/Born2BeRoot/blob/main/SRC/your-world%20(1).png alt=ablaamim's 42Project/>
 </div>
 
 
-## Learning Goals
-
-- Understand the concept of virtualization
-- Learn how virtual machines operate
-- Understand the benefits and limitations of virtual machines
 
 ## Introduction
 
@@ -131,8 +139,8 @@ GUIs are explicitily forbidden and are, altogether, very much dispensable.
 
 ---
 
-> The dark side is unrealized potential, losethose who despise SUDO.
-> CHAPTER 0, PASSAGE 0.1 : "SUDO SU, ON YOUR KNEES NORMAL USER".
+> Privellage is an unrealized potential, losethose who despise SUDO.
+> CHAPTER 0 : "$>SUDO SU, I CAN DO AS I WISH".
 
 ---
 
