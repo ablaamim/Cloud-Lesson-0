@@ -49,7 +49,9 @@ That being said, it's not all rainbows and sunshine with virtual machines; they 
 
 This makes virtual machines particularly useful for **cloud computing**. Cloud vendors typically offer resources online on a pay-as-you-go model; virtual machines vastly facilitate this by allowing vendors to separate a machine based off individual client demands. This means vendors can quickly and easily scale their computing resources up or down as needed, without the need to purchase and maintain physical hardware.
 
-![virtualization](https://curriculum-content.s3.amazonaws.com/6685/devops-m0-virtual-machines/virtualization.png)
+<div align=center>
+<img src=https://curriculum-content.s3.amazonaws.com/6685/devops-m0-virtual-machines/virtualization.png />
+</div>
 
 #### :ok_hand: Poject overview : [Q&&A]
 
@@ -198,9 +200,9 @@ Check the SSH installation:
 
 > $ vim /etc/ssh/sshd_config
 
-> In line 13 we will have the comment: #Port 22, change it to Port 4242.
+> In line 13 we will have the comment: #Port 22, change it to Port 1111.
 
-> $ 13	Port 4242
+> $ 13	Port 1111
 
 > On line 32 we will have the comment: #PermitRootLogin prohibit-password, change it to:
 
@@ -227,9 +229,9 @@ Enable UFW :
 
 > $ sudo ufw enable
 
-Allow connections to your server through port 4242 :
+Allow connections to your server through port 1111 :
 
-> $ ufw allow 4242
+> $ ufw allow 1111
 
 Check the UFW settings :
 
@@ -254,12 +256,12 @@ Add forward rule for VirtualBox :
 ```
 **************************************************************************
 * Protocol       Host IP       Host Port       Guest IP       Guest Port *
-* TCP            127.0.0.1     4242            		      4242       *
+* TCP            127.0.0.1     1111            		      1111       *
 **************************************************************************
 ```
 
 > 4. In your host (physical) machine open Terminal and run
-[ssh <username>@localhost -p 4242]
+[ssh <username>@localhost -p 1111]
 
 Now you can control your virtual machine from the host terminal!
 
